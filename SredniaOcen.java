@@ -5,7 +5,7 @@ public class SredniaOcen {
         try (Scanner scanner = new Scanner(System.in)) {
             System.out.println("Program do obliczania średniej arytmetycznej z ocen.");
 
-            // Pobieranie ocen od użytkownika
+            
             System.out.print("Wprowadź ocenę z matematyki: ");
             double matematyka = scanner.nextDouble();
 
@@ -15,10 +15,10 @@ public class SredniaOcen {
             System.out.print("Wprowadź ocenę z chemii: ");
             double chemia = scanner.nextDouble();
 
-            // Obliczanie średniej
+       
             double srednia = (matematyka + fizyka + chemia) / 3;
 
-            // Wyświetlanie wyniku
+  
             System.out.printf("Średnia arytmetyczna z ocen: %.2f", srednia);
         }
     }
